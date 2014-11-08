@@ -15,6 +15,7 @@ class Profile extends CI_Controller{
 		$sug['id'] = $id;
 		$sug['limit'] = 5;
 		$data['suggestion_kos'] = $this->kos_model->suggestion_kos($sug);
+		/*
 		$f = array();
 		$file = get_filenames('static/images/profile/');
 		$i = 0;
@@ -25,6 +26,8 @@ class Profile extends CI_Controller{
 				$i++;
 			}
 		}
+		*/		
+		$f = array($id);
 		$data['photos'] = $f;
 		
 		$this->template->get_header('profile');
@@ -40,7 +43,7 @@ class Profile extends CI_Controller{
 		$s = $this->kos_model->suggestion_kos($sug);
 		foreach($s->result() as $r) : echo '
 			<div  class="kotak">
-			<img class="foto_kcl" src="'.base_url().get_photo($r->kos_id, true).'" width="90" height="60" style="float:left">
+			<img class="foto_kcl" src="'.get_photo($r->kos_id, true).'" width="90" height="60" style="float:left">
 			<div class="deskrip" >
 				<li class="nm">'.anchor("profile/view/".$r->kos_id, $r->kos_nama).'</li>
 				<li class="al">'.$r->kos_alamat.'</li>

@@ -9,7 +9,7 @@ FB.init({ appId: '127772973968963', status: true, cookie: true, xfbml: true });
 		<div class="header">
 			<div class="title">Foto</div>
 				<div class="pp">
-					<div class="content"><img src="<?php echo base_url().get_photo($row->kos_id, true) ?>" width="320"></div>
+					<div class="content"><img src="<?php echo get_photo($row->kos_id, true) ?>" width="320"></div>
 				</div>
 				<div class="head">
 					<div class="name">
@@ -18,11 +18,11 @@ FB.init({ appId: '127772973968963', status: true, cookie: true, xfbml: true });
 					<div class="text"><?php echo $row->kos_description ?></div>
 					<div class="photo">
 					<?php if(count($photos) > 1) : $i=0; foreach($photos as $p) : if($i!=0) : ?>
-						<div class="fotolain"><img src="<?php echo base_url() ?>static/images/profile/<?php echo $p ?>"></div>
+						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo $p ?>"></div>
 					<?php endif; $i++; endforeach; else : ?>
-						<div class="fotolain"><img src="<?php echo base_url() ?>static/images/profile/<?php echo rand(1,2).'-'.rand(1,2) ?>.jpg"></div>
-						<div class="fotolain"><img src="<?php echo base_url() ?>static/images/profile/<?php echo rand(3,4).'-'.rand(1,2) ?>.jpg"></div>
-						<div class="fotolain"><img src="<?php echo base_url() ?>static/images/profile/<?php echo rand(5,6).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(1,2).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(3,4).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(5,6).'-'.rand(1,2) ?>.jpg"></div>
 					<?php endif; ?>
 					</div>
 				</div>
@@ -45,7 +45,7 @@ FB.init({ appId: '127772973968963', status: true, cookie: true, xfbml: true });
 						<?php foreach($suggestion_kos->result() as $r) : ?>
 							<a href="<?php echo site_url('profile/view/'.$r->kos_id) ?>">
 							<div class="kotak">
-								<img class="foto_kcl" src="<?php echo base_url().get_photo($r->kos_id, true) ?>" width="90" height="60" style="float:left">
+								<img class="foto_kcl" src="<?php echo get_photo($r->kos_id, true) ?>" width="90" height="60" style="float:left">
 								<div class="deskrip" >
 										<li class="nm"> <?php echo $r->kos_nama?></li>
 										<li class="al"> <?php echo $r->kos_alamat?></li>

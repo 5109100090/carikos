@@ -46,7 +46,7 @@ echo '
                 <div class='box-result'>
                     <div class='result-view'>
                         <li class='nama_kos'> ".$row->kos_nama."</li> <br/>
-                        <li class='foto'><img src='".base_url().get_photo($row->kos_id, true)."' height='140'></li>
+                        <li class='foto'><img src='".get_photo($row->kos_id, true)."' height='140'></li>
                         <li class='detil' >Alamat : ".$row->kos_alamat."</li>
                         <li class='detil' >Fasilitas : ";
 								$f = $this->fasilitas_model->get_fasilitas($row->kos_id);

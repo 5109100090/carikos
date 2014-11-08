@@ -1,6 +1,6 @@
 <body>
 <div id="floatbar">
-Website ini sedang dalam tahap pengembangan dan merupakan prototype yang digunakan untuk mengikuti kompetisi Gemastik IV 2011. <a href="mailto:spondbob@eamca.com">spondbob [at] eamca [dot] com</a>
+Website ini dalam tahap pengembangan dan merupakan prototype yang digunakan untuk mengikuti kompetisi Gemastik IV 2011. Kontak: <a href="mailto:spondbob@eamca.com">spondbob [at] eamca [dot] com</a>
 </div>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -146,6 +146,6 @@ Website ini sedang dalam tahap pengembangan dan merupakan prototype yang digunak
 
     <div id="header">
         <a href="<?php echo base_url() ?>">
-       <center><img src="<?php echo base_url() ?>static/images/template/home/logocarikos.png" width="300" border="0px"><center>
+       <center><img src="http://spondbob.github.io/carikos-static/images/template/home/logocarikos.png" width="300" border="0px"><center>
         </a>
     </div>

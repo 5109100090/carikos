@@ -13,12 +13,14 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 	
 	function get_photo($id, $return){
 		//$id = ($id%4)+1;
-		$image = "static/images/profile/".$id."-1.jpg";
+		$image = "http://spondbob.github.io/carikos-static/images/profile/".$id."-1.jpg";
 		$val = true;
+		/*
 		if(!file_exists(FCPATH.$image)){
 			$image = "static/images/profile/no_image.jpg";
 			$val = false;
 		}
+		*/
 		if($return) return $image;
 		return $val;
 	}

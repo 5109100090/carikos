@@ -1,22 +1,22 @@
 <html>
 <head>
 <title>CariKos Online</title>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-1.6.2.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-ui-1.8.14.custom.min.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-ui-1.8.14.custom.min.js"></script>
 
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/slider/jquery_002.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/slider/jquery.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/slider/jquery_003.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/slider/init.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/slider/easySlider1.5.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/slider/jquery_002.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/slider/jquery.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/slider/jquery_003.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/slider/init.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/slider/easySlider1.5.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
     <script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
 	
-	<link href="<?php echo base_url() ?>static/css/base.css" type="text/css" rel="stylesheet">
-	<link href="<?php echo base_url() ?>static/css/style_scrollpage.css" type="text/css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/jquery-ui-1.8.14.custom.css">
+	<link href="http://spondbob.github.io/carikos-static/css/base.css" type="text/css" rel="stylesheet">
+	<link href="http://spondbob.github.io/carikos-static/css/style_scrollpage.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/jquery-ui-1.8.14.custom.css">
 	<!-- include Cycle plugin -->
-	<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery.cycle.all.2.74.js"></script>
+	<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery.cycle.all.2.74.js"></script>
 
 <script type="text/javascript">	
 	
@@ -123,7 +123,7 @@
 		map = new google.maps.Map(document.getElementById("map"), myOptions);
 		
 		
-		var base_url = '<?php echo base_url() ?>static/';
+		var base_url = 'http://spondbob.github.io/carikos-static/';
 		var site_url = '<?php echo site_url() ?>';
 		
 		var marker = new google.maps.Marker({
@@ -580,7 +580,7 @@ Website ini  dalam tahap pengembangan dan merupakan prototype yang digunakan unt
 	<center>
 		<div class="layer1">
 			<div class="header11">
-				<center><a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>static/images/template/home/logocarikos.png"></a><center>
+				<center><a href="<?php echo base_url() ?>"><img src="http://spondbob.github.io/carikos-static/images/template/home/logocarikos.png"></a><center>
 			</div>
 			<div class="content11">
 				
@@ -588,8 +588,8 @@ Website ini  dalam tahap pengembangan dan merupakan prototype yang digunakan unt
 					<div class="showslide">	
 							<center>
 								<div class="slideshow2">
-									<img src="<?php echo base_url() ?>static/images/r1.png">
-									<img src="<?php echo base_url() ?>static/images/r2.png">
+									<img src="http://spondbob.github.io/carikos-static/images/r1.png">
+									<img src="http://spondbob.github.io/carikos-static/images/r2.png">
 								</div>
 							</center>
 					
@@ -655,7 +655,7 @@ Website ini  dalam tahap pengembangan dan merupakan prototype yang digunakan unt
 	<center>
 		<div class="layer1-2">
 			<div class="header12">
-				<center><a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>static/images/template/home/logocarikos.png"></a><center>
+				<center><a href="<?php echo base_url() ?>"><img src="http://spondbob.github.io/carikos-static/images/template/home/logocarikos.png"></a><center>
 			</div>
 			<div class="content12">
 				<div class="tap_about">				
@@ -677,7 +677,7 @@ Anda dapat mencari kos di website ini berdasdarkan kategori yang ingin anda cari
 								<li>Sindung Anggar Kusuma</li>
 							</div>
 							<div class="photo">
-								<img src="<?php echo base_url() ?>static/images/profile/sindung.png">
+								<img src="http://spondbob.github.io/carikos-static/images/profile/sindung.png">
 							</div>
 							<div class="kontak">
 								<li>Anggota 1</li> 
@@ -692,7 +692,7 @@ Anda dapat mencari kos di website ini berdasdarkan kategori yang ingin anda cari
 								<li>Rizky Noor Ichwan </li>
 							</div>
 							<div class="photo">
-								<img src="<?php echo base_url() ?>static/images/profile/rizky.png">
+								<img src="http://spondbob.github.io/carikos-static/images/profile/rizky.png">
 							</div>
 							<div class="kontak">
 								<li>Anggota 2</li> 
@@ -707,7 +707,7 @@ Anda dapat mencari kos di website ini berdasdarkan kategori yang ingin anda cari
 								<li>Umi Laili Yuhana, S.Kom, M.Sc.</li>
 							</div>
 							<div class="photo">
-								<img src="<?php echo base_url() ?>static/images/profile/buyuhana.png">
+								<img src="http://spondbob.github.io/carikos-static/images/profile/buyuhana.png">
 							</div>
 							<div class="kontak">
 								<li>Dosen Pembimbing</li> 	
@@ -745,13 +745,13 @@ Anda dapat mencari kos di website ini berdasdarkan kategori yang ingin anda cari
 				<li class="search_home">
 					
 					<div class="container"> 
-						<div class="header"><center><a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>static/images/template/home/logocarikos.png"></a><center></div>
+						<div class="header"><center><a href="<?php echo base_url() ?>"><img src="http://spondbob.github.io/carikos-static/images/template/home/logocarikos.png"></a><center></div>
 						<div class="slide">
 							<center>
 								<div class="slideshow">
-									<img src="<?php echo base_url() ?>static/images/s1.png">
-									<img src="<?php echo base_url() ?>static/images/s2.png">
-									<img src="<?php echo base_url() ?>static/images/s1.png">
+									<img src="http://spondbob.github.io/carikos-static/images/s1.png">
+									<img src="http://spondbob.github.io/carikos-static/images/s2.png">
+									<img src="http://spondbob.github.io/carikos-static/images/s1.png">
 								</div>
 							</center>
 						</div>

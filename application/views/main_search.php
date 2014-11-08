@@ -17,7 +17,7 @@
                 <div class="box-result">
                     <div class="result-view">
                         <li class="nama_kos"> <?php echo $row->kos_nama ?></li> <br/>
-                        <li class="foto"><img src="<?php echo base_url().get_photo($row->kos_id, true) ?>" height="140"></li>
+                        <li class="foto"><img src="<?php echo get_photo($row->kos_id, true) ?>" height="140"></li>
                         <li class="detil" ><?php echo 'Rp'.number_format($row->min_harga).' - Rp'.number_format($row->max_harga) ?></li>
                         <li class="detil" ><?php echo 'Alamat : '.$row->kos_alamat ?></li>
                         <li class="detil" >Fasilitas : 

@@ -2,12 +2,12 @@
 <html>
 <head>
 <title>CariKos Online</title>
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-1.6.2.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery.jscroll.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-ui-1.8.14.custom.min.js"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/style_template.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/search.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/jquery-ui-1.8.16.custom.css">
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery.jscroll.js"></script>
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-ui-1.8.14.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/style_template.css">
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/search.css">
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/jquery-ui-1.8.16.custom.css">
 <script type="text/javascript">
 	$(document).ready(function(){
 		$(".scroll_search_box").jScroll({speed : "very-fast"});

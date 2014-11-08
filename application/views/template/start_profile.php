@@ -2,12 +2,12 @@
 <html>
 <head>
 <title>CariKos Online</title>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/style_template.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/profile.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>static/css/jquery-ui-1.8.16.custom.css">
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-1.6.2.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery-ui-1.8.14.custom.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>static/js/jquery.jscroll.js"></script>
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/style_template.css">
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/profile.css">
+<link rel="stylesheet" type="text/css" href="http://spondbob.github.io/carikos-static/css/jquery-ui-1.8.16.custom.css">
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery-ui-1.8.14.custom.min.js"></script>
+<script type="text/javascript" src="http://spondbob.github.io/carikos-static/js/jquery.jscroll.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
 <script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
 <script type="text/javascript">
@@ -23,7 +23,7 @@
 		initialLocation = new google.maps.LatLng(lat, lng);
         map.setCenter(initialLocation);
 		
-		var base_url = '<?php echo base_url() ?>static/';
+		var base_url = 'http://spondbob.github.io/carikos-static/';
 		var mainMarker = [];
         var marker = new google.maps.Marker({
             position: initialLocation,
