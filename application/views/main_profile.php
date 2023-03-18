@@ -18,11 +18,11 @@ FB.init({ appId: '127772973968963', status: true, cookie: true, xfbml: true });
 					<div class="text"><?php echo $row->kos_description ?></div>
 					<div class="photo">
 					<?php if(count($photos) > 1) : $i=0; foreach($photos as $p) : if($i!=0) : ?>
-						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo $p ?>"></div>
+						<div class="fotolain"><img src="https://raw.githubusercontent.com/itsnotrisky/carikos-static/gh-pages/images/profile/<?php echo $p ?>"></div>
 					<?php endif; $i++; endforeach; else : ?>
-						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(1,2).'-'.rand(1,2) ?>.jpg"></div>
-						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(3,4).'-'.rand(1,2) ?>.jpg"></div>
-						<div class="fotolain"><img src="http://spondbob.github.io/carikos-static/images/profile/<?php echo rand(5,6).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="https://raw.githubusercontent.com/itsnotrisky/carikos-static/gh-pages/images/profile/<?php echo rand(1,2).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="https://raw.githubusercontent.com/itsnotrisky/carikos-static/gh-pages/images/profile/<?php echo rand(3,4).'-'.rand(1,2) ?>.jpg"></div>
+						<div class="fotolain"><img src="https://raw.githubusercontent.com/itsnotrisky/carikos-static/gh-pages/images/profile/<?php echo rand(5,6).'-'.rand(1,2) ?>.jpg"></div>
 					<?php endif; ?>
 					</div>
 				</div>

@@ -146,6 +146,6 @@ Website ini dalam tahap pengembangan dan merupakan prototype yang digunakan untu
 
     <div id="header">
         <a href="<?php echo base_url() ?>">
-       <center><img src="http://spondbob.github.io/carikos-static/images/template/home/logocarikos.png" width="300" border="0px"><center>
+       <center><img src="https://raw.githubusercontent.com/itsnotrisky/carikos-static/gh-pages/images/template/home/logocarikos.png" width="300" border="0px"><center>
         </a>
     </div>
